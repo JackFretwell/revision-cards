@@ -13,15 +13,45 @@ body, html{
 }
 
 
-.center-box{
-    width: 600px;
-    height: 400px;
+#center-box{
+    width: 400px;
+    height: 600px;
     border-radius: 20px;
     background-color: rgba(30, 216, 201, 0.766);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    font-size: x-large;
 }
 
+.login-input{
+    display: flex;
+}
+
+.input-box{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+.login-interaction {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(203, 26, 203, 0.831);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.login-interaction:hover {
+    background-color: rgb(234, 72, 234);
+}
